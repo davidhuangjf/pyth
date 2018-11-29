@@ -9,11 +9,11 @@ number = int(input("请输入一个整数："))
 while number:
     i = number - 1
     while i:
-        print(" ",end="")
+        print(" ", end="")
         i -= 1
     j=number
     while j:
-        print("*",end="")
+        print("*", end="")
         j-=1
     print()
     number = number - 1
