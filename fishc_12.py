@@ -14,8 +14,8 @@ for x in range(10):
         if x % 2 == 0:
             if y % 2 != 0:
                 list2.append((x, y))
-print(list2)
-
+for each in list2:
+    print(each)
 
 list1 = ['1.Just do it', '2.一切皆有可能', '3.让编程改变世界', '4.Impossible is Nothing']
 list2 = ['4.阿迪达斯', '2.李宁', '3.鱼C工作室', '1.耐克']
